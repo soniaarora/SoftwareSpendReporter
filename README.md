@@ -13,10 +13,10 @@
 1. Download [Git](https://git-scm.com/download/win)
 2. Install the Git exe from download folder
 3. Configure your system environment 
-a. In File Explorer right-click on the `This PC` (or `Computer`) icon, then click `Properties` -> `Advanced System Settings` -> `Environmental Variables`
-b. Under `System Variables` select `Path`, then click `Edit`
-c. Add a new entry for `C:\Program Files\Git\bin\` 
-d. Click OK to save.
+    1. In File Explorer right-click on the `This PC` (or `Computer`) icon, then click `Properties` -> `Advanced System Settings` -> `Environmental Variables`
+    2. Under `System Variables` select `Path`, then click `Edit`
+    3. Add a new entry for `C:\Program Files\Git\bin\` 
+    4. Click OK to save.
 4. To verify, restart cmd and type ```git --version``` in cmd
 
 * ### Java SE Development Kit 8
