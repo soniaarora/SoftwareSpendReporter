@@ -26,9 +26,9 @@
 3.	Download and install, leaving all of the default settings during installation.
 4.	The JDK software is installed on your computer, for example, at `C:\Program Files\Java\jdk1.8.0_201`. You can move the JDK software to another location if desired.
 5.	Set **JAVA_HOME**:
-a.	In File Explorer right-click on the `This PC` (or `Computer`) icon, then click `Properties` -> `Advanced System Settings` -> `Environmental Variables`
-b.	Under `System Variables` click `new`
-c.	JAVA_HOME to point to where the JDK software is located, for example, “C:\Program Files\Java\jdk1.8.0_201”
+    1. In File Explorer right-click on the `This PC` (or `Computer`) icon, then click `Properties` -> `Advanced System Settings` -> `Environmental Variables`
+    2. Under `System Variables` click `new`
+    3. JAVA_HOME to point to where the JDK software is located, for example, “C:\Program Files\Java\jdk1.8.0_201”
 ![alt text](https://javatutorial.net/wp-content/uploads/2016/08/add-java_home-as-system-variable.jpg)
 6. To verify, restart cmd and type ```java -version``` in cmd.
 
@@ -36,14 +36,14 @@ c.	JAVA_HOME to point to where the JDK software is located, for example, “C:\P
 
 1. Download Gradle 5.1.1 using link [Binaries](https://gradle.org/next-steps/?version=5.1.1&format=bin)
 2. Unpack the distribution
-a. Create a new directory `C:\Gradle` with File Explorer.
-b. Open a second File Explorer window and go to the directory where the Gradle distribution was downloaded. Double-click the ZIP archive to expose the content. Drag the content folder `gradle-5.1.1` to your newly created `C:\Gradle` folder.
-c. Alternatively you can unpack the Gradle distribution ZIP into C:\Gradle using an archiver tool of your choice.
+    1. Create a new directory `C:\Gradle` with File Explorer.
+    2. Open a second File Explorer window and go to the directory where the Gradle distribution was downloaded. Double-click the ZIP archive to expose the content. Drag the content folder `gradle-5.1.1` to your newly created `C:\Gradle` folder.
+    3. Alternatively you can unpack the Gradle distribution ZIP into C:\Gradle using an archiver tool of your choice.
 3. Configure your system environment
-a. In File Explorer right-click on the `This PC` (or `Computer`) icon, then click `Properties` -> `Advanced System Settings` -> `Environmental Variables`
-b. Under `System Variables` select `Path`, then click `Edit`
-c. Add a new entry for `C:\Gradle\gradle-5.1.1\bin` 
-d. Click OK to save.
+    1. In File Explorer right-click on the `This PC` (or `Computer`) icon, then click `Properties` -> `Advanced System Settings` -> `Environmental Variables`
+    2. Under `System Variables` select `Path`, then click `Edit`
+    3. Add a new entry for `C:\Gradle\gradle-5.1.1\bin` 
+    4. Click OK to save.
 4. To verify, restart cmd and type `gradle –v` in cmd
 
 ## Run Solution
