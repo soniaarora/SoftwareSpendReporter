@@ -64,4 +64,4 @@
     ```
     java -jar ./build/libs/SoftwareSpendReporter-1.0.jar ./Sample/InputFile.csv
     ```
-	![Output](Screenshots/Output.jpg)
+	![Output](Screenshots/Output.JPG)
