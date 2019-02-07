@@ -38,7 +38,7 @@
 2. Unpack the distribution
     1. Create a new directory `C:\Gradle` with File Explorer.
     2. Open a second File Explorer window and go to the directory where the Gradle distribution was downloaded. Double-click the ZIP archive to expose the content. Drag the content folder `gradle-5.1.1` to your newly created `C:\Gradle` folder.
-    3. Alternatively you can unpack the Gradle distribution ZIP into C:\Gradle using an archiver tool of your choice.
+    3. Alternatively you can unpack the Gradle distribution ZIP into `C:\Gradle` using an archiver tool of your choice.
 3. Configure your system environment
     1. In File Explorer right-click on the `This PC` (or `Computer`) icon, then click `Properties` -> `Advanced System Settings` -> `Environmental Variables`
     2. Under `System Variables` select `Path`, then click `Edit`
