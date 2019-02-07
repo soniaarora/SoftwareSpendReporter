@@ -62,6 +62,6 @@
     ```
 5. Execute solution 
     ```
-    java -jar ./build/libs/SoftwareSpendReporter-1.0.jar ./Sample/InputFile.csv
+    java -jar .\build\libs\SoftwareSpendReporter-1.0.jar .\Sample\InputFile.csv
     ```
 	![Output](Screenshots/Output.JPG)
