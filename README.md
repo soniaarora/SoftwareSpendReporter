@@ -2,10 +2,10 @@
 
 ## Dependencies
 
-  - Windows Platform  
-  - Git
-  - Java SE Development Kit 8
-  - Gradle 5.1.1
+  - **Windows Platform** 
+  - **Git** - Distributed version-control system
+  - **Java SE Development Kit 8**
+  - **Gradle 5.1.1** - Build Automation System
 
 ### Steps to install dependecnies-
 
@@ -46,7 +46,7 @@
     4. Click OK to save.
 4. To verify, restart cmd and type `gradle –v` in cmd
 
-## Run Solution
+## Step to Run Solution (Windows)
 1. Open CMD
 2. Download code from git repository using command 
     ```
