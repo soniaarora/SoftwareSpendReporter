@@ -46,7 +46,7 @@
     4. Click OK to save.
 4. To verify, restart cmd and type `gradle –v` in cmd
 
-## Step to Run Solution (Windows)
+## Steps to Run Solution (Windows)
 1. Open CMD
 2. Download code from git repository using command 
     ```
