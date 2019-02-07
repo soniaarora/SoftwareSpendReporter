@@ -65,3 +65,14 @@
     java -jar .\build\libs\SoftwareSpendReporter-1.0.jar .\Sample\InputFile.csv
     ```
 	![Output](Screenshots/Output.JPG)
+	
+## Steps to run tests
+
+```
+gradle test jacocoTestReport
+```
+
+1. **Test report** - `SoftwareSpendReporter\build\reports\tests\test\index.html`
+2. **Code coverage report** - `SoftwareSpendReporter\build\reports\jacoco\test\html\index.html`
+
+
